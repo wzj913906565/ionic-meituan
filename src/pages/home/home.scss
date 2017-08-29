@@ -1,3 +1,50 @@
-page-home {
-
+ion-header {
+    display: flex;
+    width: 100%;
+    // background-color: red;
+    height: 1.1rem;
+    font-size: .3rem;
+    .zj-panning {
+        display: flex;
+        width: 50%;
+        line-height: 1.1rem;
+        text-align: center;
+        // border: 1px solid red;
+        border-radius: 1rem;
+        background-color: rgba(129, 118, 118, 0.15);
+        i {
+            width: 20%;
+            font-size: .6rem;
+            color: #fff;
+        }
+        span {
+            width: 60%;
+            line-height: 1.1rem;
+            text-align: left;
+            font-size: .4rem;
+            color: #fff;
+        }
+    }
+    .zj-panning-input {
+        display: flex;
+        width: 50%;
+        border: 1px solid red;
+        border-radius: 1rem;
+        i {
+            height: 100%;
+            margin: .12rem 0 0 .22rem;
+            font-size: .8rem;
+        }
+        input {
+            width: 70%;
+            // outline: 1px solid green;
+            border-radius: 1rem;
+            font-size: .5rem;
+        }
+    }
+    .zj-slides {
+        width: 100%;
+        position: relative;
+        // top: -1rem;
+    }
 }

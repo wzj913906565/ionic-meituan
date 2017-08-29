@@ -1,17 +1,33 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+    <div class="zj-panning">
+        <i class="iconfont icon-dingwei"></i>
+        <span>定位中...</span>
+        <i class="iconfont icon-20151209tubiaolianxizhuanhuan09-copy"></i>
+    </div>
+    <div class="zj-panning-input">
+        <i class="iconfont icon-sousuo"></i>
+        <!-- <span></span> -->
+        <input type="text">
+    </div>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
-</ion-content>
+<!-- <ion-content> -->
+<div class="zj-slides">
+    <ion-slides pager autoplay="500" speed="500" loop="true">
+
+        <ion-slide style="background-color: #ce342c">
+            <h2>Slide 1</h2>
+        </ion-slide>
+
+        <ion-slide style="background-color: #ce342c">
+            <h2>Slide 2</h2>
+        </ion-slide>
+
+        <ion-slide style="background-color: #ce342c">
+            <h2>Slide 3</h2>
+        </ion-slide>
+
+    </ion-slides>
+</div>
+
+<!-- </ion-content> -->
